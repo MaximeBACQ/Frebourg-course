@@ -1,0 +1,32 @@
+<!-- authentification.html is using the get method, authentification2.html is using the post method -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Authentification page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <h1> With the GET method:</h1>  
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-10">
+        <form action="verification.php" method="get" class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-xl-6 input-area">            
+              <label for="fmail">Email address</label>
+              <input type="email" id="fmail" class="form-control" placeholder="name@example.com" name="email">
+              <div class="invalid-feedback">Please enter a correct email</div>
+            </div>
+          </div>
+        <!--<input type="email" placeholder="your email" name="email" class="form-control"><br/>-->
+        <input type="password" placeholder="your password" name="password"><br/>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+      <script src="bootstrap-validate.js">
+        bootstrapValidate('#myemail','email:enter a valid email please')
+      </script>
