@@ -1,0 +1,28 @@
+body
+{
+    color:#00f1ff;
+    text-align:center;
+    background: rgb(114,9,121);
+    background: radial-gradient(circle, rgba(114,9,121,1) 35%, rgba(7,50,148,1) 48%, rgba(170,5,181,1) 64%, rgba(0,212,255,1) 100%); 
+}
+
+#crocodile
+{
+    height:450px;
+    width:450px;
+    object-fit:scale-down;
+}
+
+#caracal
+{
+    height:450px;
+    width:450px;
+    object-fit:scale-down;
+}
+
+#panda
+{
+    height:450px;
+    width:450px;
+    object-fit:scale-down;
+}
