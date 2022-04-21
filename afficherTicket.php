@@ -2,7 +2,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 </head>
 
-<?php include("includes/database.php"); ?>
+<?php include("includes/database.php");
+      include("includes/header.php"); ?>
 
 <?php $id = $_POST['id'];
 
